@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>ezShare.js - External Template Demo</title>
+
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ezShare.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <h1>Thank you!</h1>
+  <p>You just did awesome! Now share it with your friends :)</p>
+
+  <div class="ezShare"
+    data-title="Smashing Magazine"
+    data-url="http://smashingmagazine.com"
+    data-tweet="A great site for designers &amp; developers"
+    data-hash-tags="frontend,design,cool">
+  </div>
+
+
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js'></script>
+
+  <script src="js/ezShare.js"></script>
+
+  <script>
+    $('.ezShare').ezShare({
+      externalTemplate : true,
+      externalTemplateFile : 'js/ezShareTemplate.html'
+    });
+  </script>
+
+</body>
+
+</html>

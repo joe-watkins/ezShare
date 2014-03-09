@@ -1,0 +1,71 @@
+.ezShare {
+  
+  $easyShareFontSize: 1.5em;
+  $easyShareTwitter: #45B0E3;
+  $easyShareFacebook: #39599F;
+  $easyShareGooglePlus: #DD4B39;
+  
+  width:100%;
+  position:relative;
+  overflow:hidden;
+  font-family: arial;
+  
+  ul { 
+    margin:0; 
+    padding:0; 
+  } 
+  li { 
+    width:12em;
+    margin:0 0 .4em 0;
+    list-style:none;
+    line-height:1.5em;
+    position:relative;
+    font-size:$easyShareFontSize;
+   
+    a {
+			padding:.2em .5em;
+			color:#fff;
+			width:100%;
+			display: block;
+      text-decoration:none;
+			&:hover { color: white; }
+			i {
+				color: white;
+        margin:0 .6em 0 0;
+				&:hover { color: white; }
+        &:after {
+          position:absolute;
+          top:0;
+          left:1.8em;
+          width:1px;
+          height:1.9em;
+          content: ' ';
+          background:white;
+          opacity:.2;
+        }
+			}
+		}
+		&.facebook {
+			a { background: $easyShareFacebook;
+				&:hover {
+					background: darken($easyShareFacebook,5%);
+				}
+			}
+		}
+		&.twitter {
+			a { background: $easyShareTwitter;
+				&:hover {
+					background: darken($easyShareTwitter,5%);
+				}
+			}
+		}
+    &.google-plus {
+			a { background: $easyShareGooglePlus;
+				&:hover {
+					background: darken($easyShareGooglePlus,5%);
+				}
+			}
+		}
+	} // li
+  
+} // easy-share
