@@ -22,6 +22,12 @@ Add this html to your page and edit the data attributes accordingly.
 ```
 
 ### Setup
+Call CSS
+```html
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/ezShare.css" media="screen" type="text/css" />
+```
+
 Requires jQuery 1.11+, Mustache.js, and ezShare.js - initialize the plugin by binding it to an element. Matchup the class with the html you added to the class eg. ezShare - Where you put that element is where the share will appear.
 
 ```html
