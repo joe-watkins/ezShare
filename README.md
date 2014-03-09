@@ -7,7 +7,7 @@ You can reference external html template or use an inline html template.
 
 It is helpful that the url you are wanting to share has proper og: data setup but not required.
 
-Visit the [demo page](http://codepen.io/joe-watkins/full/sKmEb)
+Visit the [demo page](http://codepen.io/joe-watkins/debug/dJIjF)
 
 ## How Do I Use It?
 Add this html to your page and edit the data attributes accordingly. 
