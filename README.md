@@ -13,12 +13,12 @@ Visit the [demo page](http://codepen.io/joe-watkins/full/sKmEb)
 Add this html to your page and edit the data attributes accordingly. 
 
 ```html
- 	<div class="ezShare"
-    data-title="Smashing Magazine"
-    data-url="http://smashingmagazine.com"
-    data-tweet="A great site for designers &amp; developers"
-    data-hash-tags="frontend,design,cool">
-  </div>
+<div class="ezShare"
+  data-title="Smashing Magazine"
+  data-url="http://smashingmagazine.com"
+  data-tweet="A great site for designers &amp; developers"
+  data-hash-tags="frontend,design,cool">
+</div>
 ```
 
 ### Setup
